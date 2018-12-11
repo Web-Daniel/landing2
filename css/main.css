@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Brandon Grotesque;
+  src: url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+  font-family: Brandon Grotesque Bold;
+  src: url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+  font-family: cubano;
+  src: url(../fonts/cubano-regular-webfont.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +35,7 @@ div.mainBlock header#headerBlock div#head div#headerBox div#logoBox a {
   line-height: 18.88px;
   color: #ffffff;
   letter-spacing: 2.5px;
+  font-family: cubano;
 }
 div.mainBlock header#headerBlock div#head div#headerBox div#logoBox a img {
   margin-right: 10px;
@@ -45,6 +58,7 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li:last-
 }
 div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a {
   text-decoration: none;
+  font-family: Brandon Grotesque;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
@@ -54,6 +68,7 @@ div.mainBlock header#headerBlock div#headerContent {
   text-align: center;
 }
 div.mainBlock header#headerBlock div#headerContent h5 {
+  font-family: Brandon Grotesque;
   color: #ffffff;
   font-size: 32px;
   font-weight: 300;
@@ -61,18 +76,22 @@ div.mainBlock header#headerBlock div#headerContent h5 {
   margin-bottom: 41px;
 }
 div.mainBlock header#headerBlock div#headerContent h4 {
+  font-family: Brandon Grotesque;
   color: #ffffff;
   font-size: 66px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1.65px;
   margin-bottom: 69px;
 }
 div.mainBlock header#headerBlock div#headerContent button {
+  font-family: Brandon Grotesque;
   background: none;
   width: 240px;
   padding: 0;
   line-height: 61px;
+  font-size: 23px;
+  font-weight: 700;
   border: 2px solid #ffffff;
   color: #ffffff;
 }
@@ -83,22 +102,25 @@ div.mainBlock section#webDevBlock {
   padding-bottom: 100px;
 }
 div.mainBlock section#webDevBlock div#webDevBlockBox1 {
-  max-width: 581px;
+  max-width: 556px;
   margin-right: 74px;
 }
 div.mainBlock section#webDevBlock div#webDevBlockBox1 h3 {
+  font-family: Brandon Grotesque;
   font-size: 60px;
   line-height: 75px;
   font-weight: 300;
   letter-spacing: -1.5px;
 }
 div.mainBlock section#webDevBlock div#webDevBlockBox1 h3 span {
+  font-family: Brandon Grotesque Bold;
   font-weight: 700;
 }
 div.mainBlock section#webDevBlock div#webDevBlockBox1 p {
-  font-family: "Brandon Grotesque";
+  font-family: Brandon Grotesque;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.45px;
+  color: #777777;
 }
