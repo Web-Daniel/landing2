@@ -96,8 +96,6 @@ div.mainBlock header#headerBlock div#headerContent button {
   color: #ffffff;
 }
 div.mainBlock section#webDevBlock {
-  padding-left: 230px;
-  padding-right: 230px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -117,6 +115,39 @@ div.mainBlock section#webDevBlock div#webDevBlockBox1 h3 span {
   font-weight: 700;
 }
 div.mainBlock section#webDevBlock div#webDevBlockBox1 p {
+  font-family: Brandon Grotesque;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.45px;
+  color: #777777;
+}
+div.mainBlock section#brandingBlock {
+  padding-top: 100px;
+  padding-bottom: 96px;
+  background-color: #fafafa;
+}
+div.mainBlock section#brandingBlock div#barndBlockBox1 {
+  margin-right: 54px;
+}
+div.mainBlock section#brandingBlock div#barndBlockBox1 img {
+  float: right;
+}
+div.mainBlock section#brandingBlock div#barndBlockBox2 {
+  max-width: 520px;
+}
+div.mainBlock section#brandingBlock div#barndBlockBox2 h3 {
+  font-family: Brandon Grotesque;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+}
+div.mainBlock section#brandingBlock div#barndBlockBox2 h3 span {
+  font-family: Brandon Grotesque Bold;
+  font-weight: 700;
+}
+div.mainBlock section#brandingBlock div#barndBlockBox2 p {
   font-family: Brandon Grotesque;
   font-size: 18px;
   font-weight: 400;
