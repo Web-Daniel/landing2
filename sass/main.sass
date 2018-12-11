@@ -2,7 +2,9 @@
 @import color
 
 div.mainBlock
-    max-width: 1400px
+    max-width: 1370px
+    padding-left: 0
+    padding-right: 0
     header#headerBlock
         @include bgHeader1
         height: 620px
@@ -156,3 +158,94 @@ div.mainBlock
                             letter-spacing: -0.45px
                             color: $pDark
                             margin-bottom: 0
+    footer#footer
+        background-color: $bgBlue
+        padding-top: 100px
+        div#feedbackBlock
+            padding-bottom: 100px
+            div
+                h4
+                    color: $light
+                    font-size: 60px
+                    font-family: Brandon Grotesque
+                    font-weight: 300
+                    letter-spacing: -1.5px
+                    margin-bottom: 17px
+                    span
+                        font-family: Brandon Grotesque Bold
+                        font-weight: 700
+                p
+                    color: $light
+                    font-family: Brandon Grotesque
+                    font-size: 18px
+                    font-weight: 400
+                    letter-spacing: -0.45px
+                    max-width: 419px
+                    margin-bottom: 47px
+                div#socialList
+                    padding-left: 14px
+                    div
+                        color: $light
+                        font-family: Brandon Grotesque
+                        font-size: 18px
+                        font-weight: 400
+                        max-width: 419px
+                        margin-bottom: 29px
+                        &:first-child
+                            img
+                                margin-right: 18px
+                        &:nth-child(2)
+                            img
+                                margin-right: 13px
+                        &:nth-child(3)
+                            img
+                                margin-right: 11px
+                        &:nth-child(4)
+                            img
+                                margin-right: 18px
+                        &:nth-child(5)
+                            img
+                                margin-right: 12px
+                        &:last-child
+                            img
+                                margin-right: 15px
+            div#formBox
+                form
+                    max-width: 456px
+                    div.form-group
+                        input
+                            height: 50px
+                            line-height: 50px
+                            border-radius: 2px
+                            &:first-child
+                                margin-bottom: 29px
+                            &:nth-child(2)
+                                margin-bottom: 20px
+                            &[placeholder]
+                                color: #bbbbbb
+                                font-family: Brandon Grotesque
+                                font-size: 18px
+                                font-weight: 500
+                                letter-spacing: -0.45px
+                        textarea
+                            height: 210px
+                            border-radius: 3px
+                            &[placeholder]
+                                color: #bbbbbb
+                                font-family: Brandon Grotesque
+                                font-size: 18px
+                                font-weight: 500
+                                letter-spacing: -0.45px
+        div.row
+            div#copyrightBox
+                border-top: 1px solid #87a0d2
+                height: 79px
+                text-align: center
+                p
+                    display: inline
+                    color: $light
+                    font-family: Brandon Grotesque
+                    font-size: 16px
+                    font-weight: 500
+                    line-height: 79px
+                    letter-spacing: -0.4px

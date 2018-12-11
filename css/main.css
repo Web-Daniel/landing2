@@ -16,10 +16,12 @@ body {
 }
 
 div.mainBlock {
-  max-width: 1400px;
+  max-width: 1370px;
+  padding-left: 0;
+  padding-right: 0;
 }
 div.mainBlock header#headerBlock {
-  background: url(../images/bg-header.png);
+  background: url(../images/bg-header.png) no-repeat 0 0;
   height: 620px;
   padding-top: 44px;
   padding-left: 230px;
@@ -200,4 +202,107 @@ div.mainBlock section#listBlock div div.row div#listItem div.content p {
   letter-spacing: -0.45px;
   color: #777777;
   margin-bottom: 0;
+}
+div.mainBlock footer#footer {
+  background-color: #7690c5;
+  padding-top: 100px;
+}
+div.mainBlock footer#footer div#feedbackBlock {
+  padding-bottom: 100px;
+}
+div.mainBlock footer#footer div#feedbackBlock div h4 {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: Brandon Grotesque;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  margin-bottom: 17px;
+}
+div.mainBlock footer#footer div#feedbackBlock div h4 span {
+  font-family: Brandon Grotesque Bold;
+  font-weight: 700;
+}
+div.mainBlock footer#footer div#feedbackBlock div p {
+  color: #ffffff;
+  font-family: Brandon Grotesque;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.45px;
+  max-width: 419px;
+  margin-bottom: 47px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList {
+  padding-left: 14px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div {
+  color: #ffffff;
+  font-family: Brandon Grotesque;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 419px;
+  margin-bottom: 29px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div:first-child img {
+  margin-right: 18px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div:nth-child(2) img {
+  margin-right: 13px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div:nth-child(3) img {
+  margin-right: 11px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div:nth-child(4) img {
+  margin-right: 18px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div:nth-child(5) img {
+  margin-right: 12px;
+}
+div.mainBlock footer#footer div#feedbackBlock div div#socialList div:last-child img {
+  margin-right: 15px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form {
+  max-width: 456px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form div.form-group input {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 2px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form div.form-group input:first-child {
+  margin-bottom: 29px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form div.form-group input:nth-child(2) {
+  margin-bottom: 20px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form div.form-group input[placeholder] {
+  color: #bbbbbb;
+  font-family: Brandon Grotesque;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.45px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form div.form-group textarea {
+  height: 210px;
+  border-radius: 3px;
+}
+div.mainBlock footer#footer div#feedbackBlock div#formBox form div.form-group textarea[placeholder] {
+  color: #bbbbbb;
+  font-family: Brandon Grotesque;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.45px;
+}
+div.mainBlock footer#footer div.row div#copyrightBox {
+  border-top: 1px solid #87a0d2;
+  height: 79px;
+  text-align: center;
+}
+div.mainBlock footer#footer div.row div#copyrightBox p {
+  display: inline;
+  color: #ffffff;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 79px;
+  letter-spacing: -0.4px;
 }
