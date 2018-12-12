@@ -15,6 +15,11 @@ body {
   padding: 0;
 }
 
+menu {
+  padding-left: 0;
+  margin: 0;
+}
+
 div.mainBlock {
   max-width: 1400px;
   padding-left: 0;
@@ -40,23 +45,23 @@ div.mainBlock header#headerBlock div#head div#headerBox div#logoBox a {
 div.mainBlock header#headerBlock div#head div#headerBox div#logoBox a img {
   margin-right: 10px;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuBox menu {
   list-style-type: none;
   float: right;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuBox menu li {
   display: inline-block;
   margin-right: 30px;
 }
 @media all and (max-width: 1299px) {
-  div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li {
+  div.mainBlock header#headerBlock div#head div#headerBox div#menuBox menu li {
     margin-right: 10px;
   }
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li:last-child {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuBox menu li:last-child {
   margin-right: 0;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuBox menu li a {
   text-decoration: none;
   font-family: Brandon Grotesque;
   color: #ffffff;
@@ -64,7 +69,7 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a {
   font-weight: 500;
   line-height: 41px;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a:hover {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuBox menu li a:hover {
   border-bottom: 1px solid #ffffff;
 }
 div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown label#btnMenu {
@@ -83,10 +88,10 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropd
 div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown input#checkBox {
   display: none;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown input#checkBox:checked ~ nav#listMenu {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown input#checkBox:checked ~ menu#listMenu {
   display: none;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown menu#listMenu {
   position: absolute;
   left: -150px;
   width: 272px;
@@ -95,17 +100,17 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropd
   border-radius: 7px;
   text-align: center;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown menu#listMenu li {
   list-style-type: none;
   display: inline-block;
   height: 100%;
   border-radius: 3px;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li:hover {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown menu#listMenu li:hover {
   background: #ffffff;
   opacity: 0.9;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li a {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown menu#listMenu li a {
   display: block;
   height: 100%;
   width: 100%;
@@ -117,7 +122,7 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropd
   font-weight: 500;
   line-height: 20px;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li a:hover {
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown menu#listMenu li a:hover {
   color: black;
 }
 div.mainBlock header#headerBlock div#headerContent {
@@ -238,12 +243,12 @@ div.mainBlock section#listBlock {
   padding-top: 100px;
   padding-bottom: 44px;
 }
-div.mainBlock section#listBlock div div.row div#listItem {
+div.mainBlock section#listBlock div div.row div.listItem {
   max-width: 371px;
   margin-left: 56px;
   margin-right: 56px;
 }
-div.mainBlock section#listBlock div div.row div#listItem div.circle {
+div.mainBlock section#listBlock div div.row div.listItem div.circle {
   position: relative;
   background-color: #222222;
   height: 72px;
@@ -252,7 +257,7 @@ div.mainBlock section#listBlock div div.row div#listItem div.circle {
   border-radius: 45px;
   margin-right: 17px;
 }
-div.mainBlock section#listBlock div div.row div#listItem div.circle img {
+div.mainBlock section#listBlock div div.row div.listItem div.circle img {
   position: absolute;
   margin: auto;
   top: 0;
@@ -260,18 +265,18 @@ div.mainBlock section#listBlock div div.row div#listItem div.circle img {
   bottom: 0;
   left: 0;
 }
-div.mainBlock section#listBlock div div.row div#listItem div.content {
+div.mainBlock section#listBlock div div.row div.listItem div.content {
   max-width: 282px;
   margin-bottom: 44px;
 }
-div.mainBlock section#listBlock div div.row div#listItem div.content h4 {
+div.mainBlock section#listBlock div div.row div.listItem div.content h4 {
   font-family: Brandon Grotesque;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: -0.55px;
   color: #222222;
 }
-div.mainBlock section#listBlock div div.row div#listItem div.content p {
+div.mainBlock section#listBlock div div.row div.listItem div.content p {
   font-family: Brandon Grotesque;
   font-size: 18px;
   font-weight: 400;

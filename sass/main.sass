@@ -24,7 +24,7 @@ div.mainBlock
                         img
                             margin-right: 10px
                 div#menuBox
-                    nav
+                    menu
                         list-style-type: none
                         float: right
                         li
@@ -58,9 +58,9 @@ div.mainBlock
                                 border-bottom: 1px solid $light
                         input#checkBox
                             display: none
-                            &:checked ~ nav#listMenu
+                            &:checked ~ menu#listMenu
                                 display: none
-                        nav#listMenu
+                        menu#listMenu
                             position: absolute
                             left: -150px
                             width: 272px
@@ -186,7 +186,7 @@ div.mainBlock
         padding-bottom: 44px
         div
             div.row
-                div#listItem
+                div.listItem
                     max-width: 371px
                     margin-left: 56px
                     margin-right: 56px
