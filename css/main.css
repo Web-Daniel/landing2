@@ -67,15 +67,59 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a {
 div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a:hover {
   border-bottom: 1px solid #ffffff;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown button {
-  float: right;
-  background: none;
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown label#btnMenu {
+  color: #ffffff;
   border: none;
+  text-decoration: none;
+  font-family: Brandon Grotesque;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
 }
-div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown ul {
-  min-width: 80px !important;
-  left: -40px !important;
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown label#btnMenu:hover {
+  border-bottom: 1px solid #ffffff;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown input#checkBox {
+  display: none;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown input#checkBox:checked ~ nav#listMenu {
+  display: none;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu {
+  position: absolute;
+  left: -150px;
+  width: 272px;
+  background: grey;
   opacity: 0.9;
+  border-radius: 7px;
+  text-align: center;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li {
+  list-style-type: none;
+  display: inline-block;
+  height: 100%;
+  border-radius: 3px;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li:hover {
+  background: #ffffff;
+  opacity: 0.9;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  padding: 0;
+  text-decoration: none;
+  font-family: Brandon Grotesque;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown nav#listMenu li a:hover {
+  color: black;
 }
 div.mainBlock header#headerBlock div#headerContent {
   text-align: center;

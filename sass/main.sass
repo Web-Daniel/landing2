@@ -45,15 +45,52 @@ div.mainBlock
                                     border-bottom: 1px solid $light
                 div#menuMobile
                     div.dropdown
-                        button
-                            float: right
-                            background: none
+                        label#btnMenu
+                            color: $light
                             border: none
-                        ul
-                            min-width: 80px !important
-                            left: -40px !important
+                            text-decoration: none
+                            font-family: Brandon Grotesque
+                            color: $light
+                            font-size: 18px
+                            font-weight: 600
+                            line-height: 20px
+                            &:hover
+                                border-bottom: 1px solid $light
+                        input#checkBox
+                            display: none
+                            &:checked ~ nav#listMenu
+                                display: none
+                        nav#listMenu
+                            position: absolute
+                            left: -150px
+                            width: 272px
+                            background: grey
                             opacity: 0.9
-                            a
+                            border-radius: 7px
+                            text-align: center
+                            li
+                                list-style-type: none
+                                display: inline-block
+                                height: 100%
+                                border-radius: 3px
+                                &:hover
+                                    background: $light
+                                    opacity: 0.9
+                                a
+                                    display: block
+                                    height: 100%
+                                    width: 100%
+                                    white-space: nowrap
+                                    padding: 0
+                                    text-decoration: none
+                                    font-family: Brandon Grotesque
+                                    color: $light
+                                    font-size: 18px
+                                    font-weight: 500
+                                    line-height: 20px
+                                    &:hover
+                                        color: black
+
                             
         div#headerContent
             text-align: center
