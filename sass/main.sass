@@ -2,14 +2,13 @@
 @import color
 
 div.mainBlock
-    max-width: 1370px
+    max-width: 1400px
     padding-left: 0
     padding-right: 0
     header#headerBlock
         @include bgHeader1
         height: 620px
         padding-top: 44px
-        @include padInBlock
         div#head
             max-height: 28px
             div#headerBox
@@ -42,6 +41,19 @@ div.mainBlock
                                 font-size: 18px
                                 font-weight: 500
                                 line-height: 41px
+                                &:hover
+                                    border-bottom: 1px solid $light
+                div#menuMobile
+                    div.dropdown
+                        button
+                            background: none
+                            border: none
+                        ul
+                            min-width: 80px !important
+                            left: -40px !important
+                            opacity: 0.9
+                            a
+                            
         div#headerContent
             text-align: center
             h5
@@ -69,12 +81,19 @@ div.mainBlock
                 font-weight: 700
                 border: 2px solid $light
                 color: $light
+                transition: 1s
+                &:hover
+                    color: $bgBlue
+                    background-color: $light
+                    border: 2px solid $bgBlue
     section#webDevBlock
         padding-top: 100px
         padding-bottom: 100px
         div#webDevBlockBox1
             max-width: 556px
             margin-right: 74px
+            @media all and (max-width: 839px)
+                margin-right: 3px
             h3
                 font-family: Brandon Grotesque
                 font-size: 60px
@@ -91,14 +110,20 @@ div.mainBlock
                 line-height: 24px
                 letter-spacing: -0.45px
                 color: $pDark
+        div#webDevBlockBox2
+            img
+                max-width: 220px
     section#brandingBlock
         padding-top: 100px
         padding-bottom: 96px
         background-color: $bgGrey
         div#barndBlockBox1
             margin-right: 54px
+            @media all and (max-width: 839px)
+                margin-right: 3px
             img
                 float: right
+                max-width: 272px
         div#barndBlockBox2
             max-width: 520px
             h3
@@ -236,6 +261,25 @@ div.mainBlock
                                 font-size: 18px
                                 font-weight: 500
                                 letter-spacing: -0.45px
+            div#socialListUl
+                div.row
+                    div
+                        text-align: center
+                        ul
+                            list-style-type: none
+                            padding-inline-start: 0
+                            li
+                                display: inline-block
+                                color: $light
+                                font-family: Brandon Grotesque
+                                font-size: 18px
+                                font-weight: 400
+                                max-width: 419px
+                                margin-left: 6px
+                                margin-right: 6px
+                                margin-bottom: 4px
+                                img
+                                    margin-right: 4px
         div.row
             div#copyrightBox
                 border-top: 1px solid #87a0d2
