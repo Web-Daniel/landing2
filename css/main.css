@@ -21,7 +21,7 @@ div.mainBlock {
   padding-right: 0;
 }
 div.mainBlock header#headerBlock {
-  background: url(../images/bg-header.png) no-repeat 0 0;
+  background: url(../images/Tint.png) no-repeat 0 0, url(../images/bg-header.png) no-repeat 0 0;
   height: 620px;
   padding-top: 44px;
 }
@@ -68,6 +68,7 @@ div.mainBlock header#headerBlock div#head div#headerBox div#menuBox nav li a:hov
   border-bottom: 1px solid #ffffff;
 }
 div.mainBlock header#headerBlock div#head div#headerBox div#menuMobile div.dropdown button {
+  float: right;
   background: none;
   border: none;
 }
@@ -147,6 +148,7 @@ div.mainBlock section#webDevBlock div#webDevBlockBox1 p {
   color: #777777;
 }
 div.mainBlock section#webDevBlock div#webDevBlockBox2 img {
+  width: 100%;
   max-width: 220px;
 }
 div.mainBlock section#brandingBlock {
@@ -164,6 +166,7 @@ div.mainBlock section#brandingBlock div#barndBlockBox1 {
 }
 div.mainBlock section#brandingBlock div#barndBlockBox1 img {
   float: right;
+  width: 100%;
   max-width: 272px;
 }
 div.mainBlock section#brandingBlock div#barndBlockBox2 {
